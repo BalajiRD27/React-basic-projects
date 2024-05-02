@@ -1,0 +1,18 @@
+.star-rating{
+    padding: 15px;
+    width: 40%;
+    margin: 10% auto;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    color: yellow;
+}
+.inactive{
+    color: black;
+}

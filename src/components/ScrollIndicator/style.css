@@ -1,0 +1,15 @@
+body{
+    box-sizing: border-box;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.2rem;
+    margin-top: 10%;
+}
+
+.product{
+  text-align: center;
+}

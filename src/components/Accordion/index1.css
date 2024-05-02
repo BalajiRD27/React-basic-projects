@@ -1,0 +1,44 @@
+.wrapper{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .wrapper button{
+    width:50%;
+    text-align: center;
+    margin: 0 auto;
+    color: whitesmoke;
+    background-color: aqua;
+    box-shadow: 0 0 15px;
+   
+  }
+  .panel{
+    width: 80%;
+    margin: 0 auto;
+    padding:0 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+  }
+  .question{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  span{
+    text-align: center;
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  .answer{
+    padding: 2px 40px;
+  }

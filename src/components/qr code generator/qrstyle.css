@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qr-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-qr{
+    padding: 5px;
+}
